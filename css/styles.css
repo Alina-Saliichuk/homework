@@ -88,4 +88,12 @@ body {
     color: var(--current-color);
 }
 
-.main-button {}
+.main-button {
+    background: var(--current-color);
+    color: var(--mein-light-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
