@@ -1,3 +1,80 @@
-body {
-    background-color: tomato;
+:root {
+/* Fonts */
+--main-font-family: 'Roboto', sans-serif;
+--main-font-logo: 'Raleway', sans-serif;
+
+/* Colors */
+--mein-dark-color: #000;
+--mein-light-color: #fff;
+--current-color: #2196F3;
+--mein-color: #757575;
+--secondary-color: #212121;
+--footer-color: rgba(255, 255, 255, 0.6);
+
 }
+
+body {
+    font-family: var(--main-font-family);
+    
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+
+    color: var(--mein-color);
+
+    font-family: var(--main-font-logo);
+}
+
+/* Common styles */
+.link {
+    text-decoration: none;
+    color: inherit
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: inherit;
+    color: inherit;
+}
+
+.list {
+    list-style: none;
+}
+
+.section {
+    background-color: var(--mein-light-color)
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.current {
+    color: var(--current-color);
+}
+/* Header */
+.harder {
+    background-color: var(--mein-light-color);
+}
+
+.sate-logo {
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--mein-dark-color);
+}
+
+.sate-nav {}
+
+.nav-list {}
+
+.nav-item {}
+
+.nav-link {}
+
+.main-button {}
