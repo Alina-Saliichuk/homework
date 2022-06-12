@@ -95,7 +95,7 @@ body {
     line-height: 1.14;
     color: var(--secondary-color);
 }
-.nav-link-studio {
+.nav-link-studio, .sub-item {
     font-size: 14px;
     line-height: 1.14;
     color: var(--current-color);
@@ -113,5 +113,12 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 }
+.sub-title {
 
+}
+.col-item {
+    color: var(--mein-color);
+    font-size: 14px;
+    line-height: 1.14;
+}
 /* Section 1 of main */
